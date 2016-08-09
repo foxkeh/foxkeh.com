@@ -1,0 +1,15 @@
+DirectoryIndex index.php index.html index.rss index.xml
+Options FollowSymLinks MultiViews -Indexes
+AddType application/rss+xml rss
+AddType image/x-icon ico
+
+RewriteEngine on
+RewriteBase /
+
+# Domain Handling
+RewriteCond %{HTTP_HOST} !^www\.foxkeh\.com(\.local)?$
+RewriteRule ^(.*)$ http://www.foxkeh.com/$1 [R=permanent,L]
+
+# Feedback
+RewriteRule ^trackback/([0-9]+)/$  /includes/feedback/trackback.php?id=$1
+RewriteRule ^comment/([0-9]+)/$    /includes/feedback/comment.php

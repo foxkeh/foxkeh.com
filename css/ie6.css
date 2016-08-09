@@ -1,0 +1,14 @@
+/*
+Foxkeh Blog IE6-only Stylesheet
+Copyright (C) 2007 Mozilla Japan
+Last modified: 2007-05-07
+*/
+
+#recent .entries .title { width: 320px; }
+#extra .section, .download-3boxes li { display: inline; }
+#content h3, #content h4, .feedbacks h5,
+#recent .entries, #recent .entries li, #recent .more,
+#comment-form-body, .entry .body, .downloads-parts, .downloads-wallpaper,
+.downloads-wallpaper form { height: 1%; }
+.module .textlink { height: 0; }
+#header-base, .feedbacks h4, .module h2, .module .textlink h3, #footer h2 { behavior: url(/images/iepngfix/iepngfix.htc) }

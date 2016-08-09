@@ -1,0 +1,2 @@
+/* A variation of the @import hack: hides from IE5.x (Win/Mac) */
+@import "default.css"/**/;

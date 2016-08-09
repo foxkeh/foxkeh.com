@@ -1,0 +1,18 @@
+/*
+Foxkeh Blog Print Stylesheet
+Copyright (C) 2007-2008 Mozilla Japan
+Last modified: 2008-03-31
+*/
+
+body { margin: 0; padding: 0; color: #000; font-size: 9pt; }
+* { font-family: "Lucida Grande", "Bitstream Vera Sans", "Segoe UI", Calibri, "Trebuchet MS", Tahoma, Verdana, Arial, "ヒラギノ角ゴ Pro W3", メイリオ, "ＭＳ Ｐゴシック", IPAPGothic, Sans, sans-serif; font-size: 100%; line-height: 1.8; }
+h1, h2, h3, h4, h5 { clear: both; line-height: 1.4; }
+h1 { font-size: 180%; }
+h2 { border-bottom: 1px solid #000; font-size: 160%; }
+h3 { font-size: 140%; }
+h4 { font-size: 120%; }
+img, input, textarea { border: 0; vertical-align: top; }
+a, a:link, a:visited { color: #000; text-decoration: none; }
+#branding, .skip, #nav, #comment-form, #sidebar, #footer { display: none; }
+#header { border-left: 8pt solid #000; padding-left: 6pt; }
+#header * { margin: 0; }
